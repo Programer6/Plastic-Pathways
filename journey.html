@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plastic's Journey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="journey-header">
+    <h1>Journey of a Plastic Bottle</h1>
+  </header>
+
+  <main class="journey-container">
+    <div id="stepContent" class="step-content">
+      <img id="stepImage" src="thrown_away.png" alt="Plastic Bottle Start Image">
+      <h2 id="stepTitle">Plastic Bottle Start</h2>
+      <p id="stepDescription">You throw the bottle in the trash. But where does it go from here?</p>
+      <button onclick="nextStep()" class="next-button">Next Step</button>
+    </div>
+    <div class="step-indicator">
+      <span id="indicator1" class="dot active"></span>
+      <span id="indicator2" class="dot"></span>
+      <span id="indicator3" class="dot"></span>
+      <span id="indicator4" class="dot"></span>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

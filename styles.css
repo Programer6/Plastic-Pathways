@@ -1,0 +1,168 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Introduction Page Styles */
+  .intro-header {
+    margin-top: 20px;
+  }
+  
+  .intro-content {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .stats-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat img {
+    width: 50px;
+    margin-bottom: 10px;
+    animation: bounce 2s infinite;
+  }
+  
+  .cta-section {
+    background-color: #004d40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .cta-button, .learn-more-button {
+    text-decoration: none;
+    color: white;
+    background-color: #00796b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover, .learn-more-button:hover {
+    background-color: #004d40;
+  }
+  
+  .tips-section {
+    background-color: #e0f2f1;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Journey Page Styles */
+  .journey-header {
+    margin-top: 20px;
+  }
+  
+  .journey-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .step-content {
+    max-width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  .next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #004d40;
+  }
+  
+  .step-indicator {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #00796b;
+  }
+  
+  /* Animations */
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+
+  /* Journey Container Styling */
+.journey-container {
+    width: 80%; /* Adjust as needed */
+    max-width: 600px; /* Maximum width for larger screens */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+/* Image Styling */
+.journey-container img {
+    max-width: 100%; /* Ensures the image doesn't exceed container width */
+    max-height: 200px; /* Limits the height of the image */
+    height: auto;
+    width: auto;
+    object-fit: contain; /* Ensures the entire image fits within the box */
+    border-radius: 8px; /* Adds a slight curve to match container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
