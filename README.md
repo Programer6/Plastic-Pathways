@@ -1,4 +1,7 @@
 # Plastic-Pathways
+<img width="630" alt="Screenshot 2024-11-03 at 5 33 00 PM" src="https://github.com/user-attachments/assets/3ec79f41-cbbe-4c62-aae9-965fa56a7d84">
+
+<img width="624" alt="Screenshot 2024-11-03 at 5 33 24 PM" src="https://github.com/user-attachments/assets/88dd9d0e-3200-4052-9323-de6a5f4df6bd">
 
 Inspiration:
 Our inspiration stemmed from the urgent need to address plastic pollution in our oceans. We wanted to create an interactive, educational tool to help people visualize and understand the journey of plastic waste from disposal to its harmful impact on marine ecosystems.
